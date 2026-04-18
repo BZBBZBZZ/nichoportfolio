@@ -1,65 +1,86 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from(".hero-text", {
+        y: 40,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.15,
+        ease: "power3.out",
+        delay: 0.1,
+      });
+
+      gsap.from(".hero-button", {
+        y: 40,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.15,
+        ease: "power3.out",
+        delay: 0.5,
+      });
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div
+      ref={containerRef}
+      className="min-h-[70vh] flex flex-col justify-center items-center text-center"
+    >
+      <h2 className="hero-text text-xl md:text-2xl font-medium text-gray-500 mb-4 tracking-wide">
+        Welcome
+      </h2>
+      <h1 className="hero-text text-5xl md:text-7xl font-bold tracking-tight mb-6">
+        Hi, I&apos;m{" "}
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-500 dark:from-white dark:to-gray-400">
+          Nicholas Leroy Kurniawan
+        </span>
+      </h1>
+
+      <div className="hero-text mb-8 relative w-40 h-40 md:w-48 md:h-48 mx-auto rounded-full overflow-hidden shadow-2xl ring-4 ring-gray-100 dark:ring-gray-900 bg-gray-200 dark:bg-gray-800 flex flex-col items-center justify-center">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+          src="/images/PP.jpeg"
+          alt="Nicholas Leroy"
+          fill
+          className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      </div>
+
+      <p className="hero-text text-lg md:text-xl max-w-2xl text-gray-600 dark:text-gray-400 mb-12 font-light">
+        I&apos;m an undergraduate Artificial Intelligence student at Universitas
+        Ciputra Surabaya who enjoys exploring new things and learning new
+        concepts related to technology.
+      </p>
+
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
+        <div className="hero-button">
+          <Link
+            href="/projects"
+            className="flex items-center justify-center gap-2 h-14 px-8 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium hover:scale-105 active:scale-95 transition-transform"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            View My Projects <ArrowRight size={20} />
+          </Link>
         </div>
-      </main>
+        <div className="hero-button">
+          <Link
+            href="/about"
+            className="flex items-center justify-center gap-2 h-14 px-8 bg-gray-200 dark:bg-gray-800 text-black dark:text-white rounded-full font-medium hover:bg-gray-300 dark:hover:bg-gray-700 hover:scale-105 active:scale-95 transition-all"
+          >
+            About Me
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
