@@ -32,8 +32,8 @@ export const projectsData: Project[] = [
     longDescription2:
       "Throughout the project, I faced challenges as it was my first time working with Next.js, requiring me to learn the framework from the ground up. In addition, I was involved in integrating the front-end with the back-end, which expanded my technical understanding beyond my primary role. I also explored the use of GSAP for animations and applied component-based architecture in building the website. Despite these challenges, I was able to overcome them through continuous learning and teamwork, successfully contributing to the completion of a functional and well-developed platform.",
     image: "/images/portfolio2.png",
-    websiteLink: "https://www.simawa-imtuc.com/",
     githubLink: "https://github.com/IMT-SU-25-26/Web-Main",
+    websiteLink: "https://www.simawa-imtuc.com/",
   },
   {
     slug: "project-three",
@@ -60,6 +60,7 @@ export const projectsData: Project[] = [
     image: "/images/portfolio4.png",
     githubLink: "https://github.com/BZBBZBZZ/ALPVP",
     githubLink2: "https://github.com/BZBBZBZZ/ALPVPBACKEND",
+    videoLink: "https://youtube.com/shorts/QaZ0MbiMcH8",
   },
   // {
   //   slug: "project-five",
