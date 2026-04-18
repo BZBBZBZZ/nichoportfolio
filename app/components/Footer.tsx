@@ -23,7 +23,7 @@ export default function Footer() {
         ease: "power2.out",
         scrollTrigger: {
           trigger: footerRef.current,
-          start: "top 90%",
+          start: "top bottom",
         },
       },
     );
