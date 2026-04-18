@@ -54,13 +54,13 @@ export const projectsData: Project[] = [
     shortDescription:
       "This project is an Android application developed with my team as the final project for the Visual Programming course.",
     longDescription:
-      "This project is an Android application developed with my team as the final project for the Visual Programming course. Through this project, I gained valuable experience in using Kotlin for front-end development and Prisma with Next.js for the back-end. I also learned how to connect the front-end and back-end through API integration, as well as how to collaborate on a project-based application using GitHub. This experience gave me deeper insight into full-stack mobile app development and strengthened my technical understanding across both client-side and server-side implementation.",
+      "This project is an Android application developed with my team as the final project for the Visual Programming course.It is an app about studying various food nutrition with a little quiz that's gamified so people can learn while having fun. Through this project, I gained valuable experience in using Kotlin for front-end development and Prisma with Next.js for the back-end. I also learned how to connect the front-end and back-end through API integration, as well as how to collaborate on a project-based application using GitHub. This experience gave me deeper insight into full-stack mobile app development and strengthened my technical understanding across both client-side and server-side implementation.",
     longDescription2:
       "Throughout the project, I encountered several challenges. As this was my first time working with Kotlin and Prisma with Next.js, I had to learn both technologies from scratch. One of the most significant challenges, however, was team collaboration. Since the team was assigned randomly, I had to adapt to different working styles, and there were difficulties in coordinating and combining each member’s contributions into a single, cohesive application. Despite these challenges and time constraints, I worked closely with one teammate to complete the core features, resulting in an application that was functional and ready for showcase, although some features were not fully completed. This experience taught me that developing applications in a team environment requires strong coordination, responsibility, and adaptability, while also improving my ability to learn new technologies under pressure.",
     image: "/images/portfolio4.png",
     githubLink: "https://github.com/BZBBZBZZ/ALPVP",
     githubLink2: "https://github.com/BZBBZBZZ/ALPVPBACKEND",
-    videoLink: "https://youtube.com/shorts/QaZ0MbiMcH8",
+    videoLink: "https://youtu.be/K311YZUvvXY",
   },
   // {
   //   slug: "project-five",
