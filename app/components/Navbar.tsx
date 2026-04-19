@@ -26,7 +26,7 @@ export default function Navbar() {
         href="/"
         className="font-semibold text-lg hover:opacity-70 transition-opacity"
       >
-        NK
+        NLK
       </Link>
       <nav className="flex space-x-6 text-sm font-medium">
         <Link
