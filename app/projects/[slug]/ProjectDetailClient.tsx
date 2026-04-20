@@ -93,11 +93,31 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
         <h2 className="text-2xl font-semibold mb-6 tracking-tight">
           Project Reflection
         </h2>
-        <div className="prose prose-lg dark:prose-invert font-light leading-relaxed text-gray-700 dark:text-gray-300 mb-24">
-          <p>{project.longDescription}</p>
-          {project.longDescription2 && (
-            <p className="mt-8">{project.longDescription2}</p>
-          )}
+        <div className="prose prose-lg dark:prose-invert font-light leading-relaxed text-gray-700 dark:text-gray-300 mb-24 max-w-none">
+          <div className="mb-6">
+            <h3 className="text-xl font-medium mb-2">Project Summary</h3>
+            <p>{project.projectSummary}</p>
+          </div>
+          
+          <div className="mb-6">
+            <h3 className="text-xl font-medium mb-2">Project Type</h3>
+            <p>{project.projectType}</p>
+          </div>
+          
+          <div className="mb-6">
+            <h3 className="text-xl font-medium mb-2">Role</h3>
+            <p>{project.role}</p>
+          </div>
+          
+          <div className="mb-6">
+            <h3 className="text-xl font-medium mb-2">Impact</h3>
+            <p>{project.impact}</p>
+          </div>
+          
+          <div className="mb-6">
+            <h3 className="text-xl font-medium mb-2">What I Learned</h3>
+            <p>{project.whatILearned}</p>
+          </div>
         </div>
       </div>
     </div>
