@@ -41,7 +41,7 @@ export default function AboutPage() {
         </p>
         <br />
         <p>
-          Beyond academics, I am an active member of the chess club and a regular gym enthusiast, which help me build discipline, focus, and consistency. I also enjoy social activities such as playing sports and spending time with friends, which strengthen my ability to collaborate and adapt in team environments. These experiences reflect my ability to work both independently and as part of a team.
+          Beyond academics, I am an active member of the chess club and a regular gym enthusiast, which help me build discipline, focus, and consistency. I enjoy social activities, including playing esports, participating in team sports like soccer and basketball, and spending fun time with friends, which strengthen my ability to collaborate and adapt in team environments. These experiences reflect my ability to work both independently and as part of a team.
         </p>
       </div>
 
