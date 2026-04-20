@@ -50,7 +50,7 @@ export const projectsData: Project[] = [
   },
   {
     slug: "project-three",
-    title: "Final Project – Web Development Course",
+    title: "Final Project – Web Development Course - Ciputra University Surabaya",
     shortDescription:
       "This project is an Website developed with my friend as the final project for the Web Development course",
     projectSummary:
@@ -67,7 +67,7 @@ export const projectsData: Project[] = [
   },
   {
     slug: "project-four",
-    title: "Final Project – Visual Programming Course",
+    title: "Final Project – Visual Programming Course - Ciputra University Surabaya",
     shortDescription:
       "This project is an Android application developed with my team as the final project for the Visual Programming course.",
     projectSummary:
@@ -84,12 +84,21 @@ export const projectsData: Project[] = [
     videoLink: "https://youtu.be/K311YZUvvXY",
   },
   // {
-  //   slug: "project-five",
-  //   title: "Project Five - 3D Portfolio Experience",
-  //   shortDescription: "An interactive spatial web experience.",
-  //   longDescription: "Pushing the boundaries of what the web can do using WebGL. The reflection taught me a lot about performance optimization and shader programming.",
-  //   image: "/placeholder-5.jpg",
-  //   githubLink: "https://github.com/nichoportfolio/3d-port",
-  //   videoLink: "https://youtube.com/watch?v=abc",
+  // slug: "project-five",
+  // title: "Final Project – Visual Programming Course - Ciputra University Surabaya",
+  // shortDescription:
+  //   "This project is an Android application developed with my team as the final project for the Visual Programming course.",
+  // projectSummary:
+  //   "Developed an Android application focused on learning food nutrition through interactive and gamified quizzes, designed to make the learning experience more engaging and enjoyable.",
+  // projectType: "Class assignment – GROUP PROJECT",
+  // role: "Mobile Developer (Kotlin) & API Integration",
+  // impact:
+  //   "Contributed to building a functional mobile application by developing the front-end using Kotlin and integrating it with a back-end built with Prisma and Next.js. Successfully implemented API communication between front-end and back-end, and collaborated using GitHub to manage project development. Despite time constraints, delivered a working application that was ready for showcase with core features completed.",
+  // whatILearned:
+  //   "Through this project, I gained hands-on experience in mobile app development and full-stack integration. I learned Kotlin and Prisma with Next.js from scratch, as well as how to connect front-end and back-end systems using APIs. I also developed teamwork and adaptability skills, especially in handling challenges related to team coordination and merging different parts of the project. This experience strengthened my ability to learn new technologies under pressure and reinforced the importance of responsibility and communication in team-based development.",
+  // image: "/images/portfolio4.png",
+  // githubLink: "https://github.com/BZBBZBZZ/ALPVP",
+  // githubLink2: "https://github.com/BZBBZBZZ/ALPVPBACKEND",
+  // videoLink: "https://youtu.be/K311YZUvvXY",
   // }
 ];

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -39,25 +38,45 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} Nicholas Leroy Kurniawan. All rights
           reserved.
         </p>
-        <div className="flex space-x-6">
-          <Link
-            href="/"
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+          <a
+            href="mailto:your-email@example.com"
             className="hover:text-black dark:hover:text-white transition-colors"
           >
-            Home
-          </Link>
-          <Link
-            href="/projects"
+            Email
+          </a>
+          <a
+            href="https://wa.me/yourphonenumber"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-black dark:hover:text-white transition-colors"
           >
-            My Projects
-          </Link>
-          <Link
-            href="/about"
+            WhatsApp
+          </a>
+          <a
+            href="https://linkedin.com/in/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-black dark:hover:text-white transition-colors"
           >
-            About Me
-          </Link>
+            LinkedIn
+          </a>
+          <a
+            href="https://instagram.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black dark:hover:text-white transition-colors"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black dark:hover:text-white transition-colors"
+          >
+            GitHub
+          </a>
         </div>
       </div>
     </footer>
