@@ -37,15 +37,11 @@ export default function AboutPage() {
           .
         </p>
         <p>
-          I am currently in my 4th semester pursuing a Bachelor&apos;s degree (S1) in
-          Informatics - Artificial Intelligence (IMT-AI) at Universitas Ciputra
-          Surabaya.
+          I am currently a 4th-semester undergraduate student pursuing a Bachelor&apos;s degree in Informatics – Artificial Intelligence (IMT-AI) at Universitas Ciputra Surabaya. I have a strong interest in continuously learning new things, especially in technology, and I enjoy building websites and developing applications.
         </p>
+        <br />
         <p>
-          I have a strong interest in continuously learning new things,
-          especially in the field of technology. I am eager to deepen my
-          knowledge in Artificial Intelligence, and I enjoy building websites as
-          well as developing applications.
+          Beyond academics, I am an active member of the chess club and a regular gym enthusiast, which help me build discipline, focus, and consistency. I also enjoy social activities such as playing sports and spending time with friends, which strengthen my ability to collaborate and adapt in team environments. These experiences reflect my ability to work both independently and as part of a team.
         </p>
       </div>
 
