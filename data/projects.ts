@@ -83,22 +83,21 @@ export const projectsData: Project[] = [
     githubLink2: "https://github.com/BZBBZBZZ/ALPVPBACKEND",
     videoLink: "https://youtu.be/K311YZUvvXY",
   },
-  // {
-  // slug: "project-five",
-  // title: "Final Project – Visual Programming Course - Ciputra University Surabaya",
-  // shortDescription:
-  //   "This project is an Android application developed with my team as the final project for the Visual Programming course.",
-  // projectSummary:
-  //   "Developed an Android application focused on learning food nutrition through interactive and gamified quizzes, designed to make the learning experience more engaging and enjoyable.",
-  // projectType: "Class assignment – GROUP PROJECT",
-  // role: "Mobile Developer (Kotlin) & API Integration",
-  // impact:
-  //   "Contributed to building a functional mobile application by developing the front-end using Kotlin and integrating it with a back-end built with Prisma and Next.js. Successfully implemented API communication between front-end and back-end, and collaborated using GitHub to manage project development. Despite time constraints, delivered a working application that was ready for showcase with core features completed.",
-  // whatILearned:
-  //   "Through this project, I gained hands-on experience in mobile app development and full-stack integration. I learned Kotlin and Prisma with Next.js from scratch, as well as how to connect front-end and back-end systems using APIs. I also developed teamwork and adaptability skills, especially in handling challenges related to team coordination and merging different parts of the project. This experience strengthened my ability to learn new technologies under pressure and reinforced the importance of responsibility and communication in team-based development.",
-  // image: "/images/portfolio4.png",
-  // githubLink: "https://github.com/BZBBZBZZ/ALPVP",
-  // githubLink2: "https://github.com/BZBBZBZZ/ALPVPBACKEND",
-  // videoLink: "https://youtu.be/K311YZUvvXY",
-  // }
+  {
+  slug: "project-five",
+  title: "Final Project – Mobile Application Development - Ciputra University Surabaya",
+  shortDescription:
+    "This project is a productivity application for iPhone, iPad, and Apple Watch developed with my team as the final project for the Mobile Application Development course.",
+  projectSummary:
+    "Developed a gamified RPG inspired productivity app for iPhone, iPad, and Apple Watch to help users manage daily activities, improve consistency,  stay motivated, and avoid burnout.",
+  projectType: "Class assignment – GROUP PROJECT",
+  role: "iOS Developer (SwiftUI) & Firebase Integration",
+  impact:
+    "Contributed to a gamified productivity application for iPhone, iPad, and Apple Watch using SwiftUI and Firebase. Developed the Home, Login, Register, and Profile pages, integrated Firebase Authentication and Cloud Firestore, and contributed to activity management and Daily Boss functionality. Collaborated with team members using GitHub to successfully deliver a functional application.",
+  whatILearned:
+    "Through this project, I gained hands on experience in developing applications within the Apple ecosystem using SwiftUI, Xcode, and Firebase. I learned how to build and structure applications using the MVVM architecture, as well as integrate Firebase Authentication and Cloud Firestore for user management and data storage. One of the main challenges was adapting from Android development to Apple's development environment, including differences in coding style, project structure, and development patterns. Through this experience, I became more familiar with Swift and Apple’s development practices while improving my problem-solving and collaboration skills through GitHub-based teamwork. By completing this project, I hope the knowledge and experience I gained have prepared me to pursue further learning opportunities through the Apple Developer Academy.",
+  image: "/images/portfolio5.jpeg",
+  githubLink: "https://github.com/BZBBZBZZ/ALP_MAD",
+  videoLink: "https://youtu.be/BdsgGinRfe0",
+  }
 ];
