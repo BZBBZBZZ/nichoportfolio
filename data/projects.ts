@@ -81,7 +81,7 @@ export const projectsData: Project[] = [
     image: "/images/portfolio4.png",
     githubLink: "https://github.com/BZBBZBZZ/ALPVP",
     githubLink2: "https://github.com/BZBBZBZZ/ALPVPBACKEND",
-    videoLink: "https://youtu.be/K311YZUvvXY",
+    videoLink: "https://youtu.be/ahUspL9DMZI",
   },
   {
   slug: "project-five",
