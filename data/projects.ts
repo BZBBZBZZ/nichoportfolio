@@ -99,5 +99,22 @@ export const projectsData: Project[] = [
   image: "/images/portfolio5.jpeg",
   githubLink: "https://github.com/BZBBZBZZ/ALP_MAD",
   videoLink: "https://youtu.be/BdsgGinRfe0",
+  },
+    {
+  slug: "project-six",
+  title: "Final Project - Software Engineering - Ciputra University Surabaya",
+  shortDescription:
+    "This project is an application for ios developed with my team as the final project for the Software Engineering course.",
+  projectSummary:
+    "Developed an IOS application focused on learning food nutrition through interactive and gamified quizzes, designed to make the learning experience more engaging and enjoyable.",
+  projectType: "Class assignment – GROUP PROJECT",
+  role: "iOS Developer (SwiftUI)",
+  impact:
+    "Contributed to the development of EduFood, an iOS educational application focused on nutrition learning through interactive materials and gamified quizzes. Developed the Material and Material Detail features using SwiftUI and the MVVM architecture, enabling users to explore food categories, nutritional information, and detailed food descriptions. Integrated Supabase for data retrieval and management, collaborated with a four-member team using GitHub, and participated in the complete Software Engineering lifecycle, including requirements analysis, system design, implementation, testing, and documentation.",
+  whatILearned:
+    "Through this project, I gained hands-on experience in iOS application development using SwiftUI, Xcode, and Supabase. I learned how to design and implement features following the MVVM architecture, apply software engineering principles such as Separation of Concerns and Single Responsibility Principle, and collaborate effectively within a development team using GitHub. One of the biggest challenges was adapting to Swift and understanding the complete software development process, including creating Software Requirements Specifications (SRS), architecture diagrams, sequence diagrams, class diagrams, coding standards, and test plans before implementation. I also improved my debugging, problem-solving, and teamwork skills while managing code integration and resolving merge conflicts. Through this experience, I developed a stronger understanding of both mobile application development and structured software engineering practices.",
+  image: "/images/portfolio6.png",
+  githubLink: "https://github.com/BZBBZBZZ/EduFood_Kelompok7",
+  videoLink: "https://youtu.be/4yKK6NIEPuo",
   }
 ];
