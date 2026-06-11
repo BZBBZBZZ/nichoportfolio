@@ -98,7 +98,7 @@ export const projectsData: Project[] = [
     "Through this project, I gained hands on experience in developing applications within the Apple ecosystem using SwiftUI, Xcode, and Firebase. I learned how to build and structure applications using the MVVM architecture, as well as integrate Firebase Authentication and Cloud Firestore for user management and data storage. One of the main challenges was adapting from Android development to Apple's development environment, including differences in coding style, project structure, and development patterns. Through this experience, I became more familiar with Swift and Apple’s development practices while improving my problem-solving and collaboration skills through GitHub-based teamwork. By completing this project, I hope the knowledge and experience I gained have prepared me to pursue further learning opportunities through the Apple Developer Academy.",
   image: "/images/portfolio5.jpeg",
   githubLink: "https://github.com/BZBBZBZZ/ALP_MAD",
-  videoLink: "https://youtu.be/BdsgGinRfe0",
+  videoLink: "https://youtu.be/dbAiX1sV4FE",
   },
     {
   slug: "project-six",
